@@ -163,14 +163,14 @@ ul {
     background: #283036;
     border-radius: 15px;
     padding-left: 55px;
-    padding-right: 150px;
+    padding-right: 22%;
     color: rgba(255, 255, 255, 0.9);
 }
 
 .search-image {
     position: absolute;
     left: 20px;
-    top: 20px;
+    top: 28%;
     background: none;
 }
 
@@ -221,6 +221,7 @@ ul {
 
     .intro__search {
         width: 92%;
+        padding-right: 30%;
     }
 
     .intro__search-link {
@@ -249,6 +250,7 @@ ul {
 
     .intro__search {
         width: 92%;
+        padding-right: 30%;
     }
 
     .intro__search-link {
@@ -279,17 +281,13 @@ ul {
 
     .intro__search {
         height: 50px;
-        padding-right: 0;
+        padding-right: 30%;
     }
 
     .intro__search-link {
         top: 8px;
         right: 40px;
         padding: 5px 0px;
-    }
-
-    .search-image {
-        top: 15px;
     }
 
     .intro__main-img {
@@ -365,7 +363,7 @@ ul {
 
 .main__info-item {
     width: 30%;
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 100px;
 }
 
@@ -487,8 +485,7 @@ ul {
     }
 
     .main__info-item {
-        width: 100%;
-        padding: 0;
+        width: 98%;
         margin-bottom: 20%;
     }
 
@@ -712,11 +709,11 @@ ul {
 
 .newcomer__apps {
     width: 48%;
-    padding: 28px 21px;
+    padding: 20px;
 }
 
 .newcomer__apps:not(:last-child) {
-    margin-bottom: 22%;
+    margin-bottom: 10%;
 }
 
 .header__app {
@@ -775,6 +772,7 @@ ul {
     font-weight: 600;
     font-size: 16px;
     padding-right: 56px;
+    margin-left: auto;
 }
 
 .newcomer__apps:hover {
@@ -795,6 +793,7 @@ ul {
     padding: 9px 35px;
     font-size: 16px;
     font-weight: 600;
+    margin-left: auto;
 }
 
 @media (max-width: 1265px) and (min-width:990px) {
@@ -849,12 +848,11 @@ ul {
 
     .main__app-link {
         padding-right: 0;
-        margin-right: 15px;
+        margin-left: auto;
     }
 
     .newcomer__apps {
         width: 100%;
-        padding: 0;
     }
 
     .newcomer__apps:hover .main__app-link {
